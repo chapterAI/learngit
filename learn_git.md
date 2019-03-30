@@ -9,12 +9,17 @@
 ###二.Git版本控制系统的各类操作
 	1. 建立仓库
 		* 配置全局信息
-			>git config --global user.name "John Doe"
-			>git config --global user.email johndoe@example.com
-			
+			>git config --global user.name "XXX"
+			>git config --global user.email XXX@example.com
+				这个命令用于设置名字与邮箱	
+				--global 让以后的git仓库初始化后自动被赋予设置的名字与邮箱。
+		* 初始化仓库
+			>git init 	
 
 	2. 添加文件到仓库
-	
+		* 查看文件的状态
+			>git status
+				命令用于
 	3. 版本控制
 	
 	4. 分支

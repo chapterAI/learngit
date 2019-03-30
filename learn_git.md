@@ -1,27 +1,27 @@
 # learn git 
 
-###一.Git版本控制系统的优势
+一.Git版本控制系统的优势
 	1. 集中式版本控制只有中心服务器拥有一份代码，而分布式版本控制每个人的电脑上就有一份完整的代码。
 	2. 集中式版本控制有安全性问题，当中心服务器挂了所有人都没办法工作了。
 	3. 集中式版本控制需要连网才能工作,而分布式版本控制不需要连网就能工作。
 	4. 分布式版本控制新建分支、合并分支操作速度非常快(建立指针)，而集中式版本控制新建一个分支相当于复制一份完整代码。
 	
-###二.Git版本控制系统的各类操作
+二.Git版本控制系统的各类操作
 	1. 建立仓库
-		* 配置全局信息
-			>git config --global user.name "XXX"
-			>git config --global user.email XXX@example.com
-				这个命令用于设置名字与邮箱	
-				--global 让以后的git仓库初始化后自动被赋予设置的名字与邮箱。
+		 配置全局信息
+			> git config --global user.name "XXX"
+			> git config --global user.email XXX@example.com
+			这个命令用于设置名字与邮箱	
+			--global 让以后的git仓库初始化后自动被赋予设置的名字与邮箱。
 		* 初始化仓库
-			>git init 	
+			> git init 	
 
 	2. 添加文件到仓库
 		* 查看文件的状态
-			>git status
-				命令用于
+			> git status
+			该命令用于
 	3. 版本控制
-	
+
 	4. 分支
 
 	5. 远程库关联

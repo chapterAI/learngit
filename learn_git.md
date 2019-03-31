@@ -87,8 +87,10 @@
 >
 >		* 从远程库拉取文件
 >			> git pull origin [master/...]
+>           > git fetch origin [mastetr/...]
 >		pull操作一共有两步：1.是将远程库内容拉到本地
 >		2.是与本地的分支进行合并（如果不想合并请谨慎使用）
+>       fetch 相比更安全
 >		
 >		* 从本地库推送文件到远程库
 >			> git push origin [master/...]
